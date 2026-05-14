@@ -106,6 +106,12 @@ int main() {
             if (encontrado == 0) {
                 printf("Cliente nao encontrado.\n");
             }
+
+        // opcao invalida
+        } else {
+            if (opcao != 5) {
+                printf("Opcao invalida!\n");
+            }
         }
     }
 
